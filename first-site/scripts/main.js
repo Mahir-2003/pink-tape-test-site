@@ -11,10 +11,10 @@
 // };
 
 // cool sliding animation (automatic)
-const covers = document.querySelectorAll(".pt-covers");
-let counter = 0;
-covers[0].style.transform = `translateX(-50%)`;
-covers[1].style.transform = `translateX(50%)`;
+// const covers = document.querySelectorAll(".pt-covers");
+// let counter = 0;
+// covers[0].style.transform = `translateX(-50%)`;
+// covers[1].style.transform = `translateX(50%)`;
 
 // const covers = document.querySelectorAll(".pt-covers");
 // let isSecondImage = false;
@@ -50,21 +50,21 @@ covers[1].style.transform = `translateX(50%)`;
 //     }, 1000);
 // }
 
-// const coversContainer = document.querySelector(".covers-container");
-// let isSecondImage = false;
+const coversContainer = document.querySelector(".covers-container");
+let isSecondImage = false;
 
-// function goPrev() {
-//   isSecondImage = false;
-//   slideImage();
-// }
+function goPrev() {
+  isSecondImage = false;
+  slideImage();
+}
 
-// function goNext() {
-//   isSecondImage = true;
-//   slideImage();
-// }
+function goNext() {
+  isSecondImage = true;
+  slideImage();
+}
 
-// function slideImage() {
-//   coversContainer.style.transform = `translateX(-${isSecondImage ? "100%" : "0"})`;
+function slideImage() {
+  coversContainer.style.transform = `translateX(-${isSecondImage ? "100%" : "0"})`;
 
 //   setTimeout(() => {
 //     coversContainer.style.transform = "";
