@@ -1,0 +1,103 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: pink;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    border-color: salmon;
+    padding: 0 20px 20px 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: hotpink;
+    border: 1px solid salmon;
+    text-shadow: 2px 2px 1px salmon;
+ 
+}
+h2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: hotpink;
+    border: 1px solid salmon;
+}
+p, ul{
+    color: hotpink;
+    font-size: 15px;
+    line-height: 1.4;
+}
+/* old stuff */ 
+ /* .covers {
+    margin: auto;
+    margin-top: 165px;
+    position: relative;
+    overflow: hidden;
+}
+.pt-covers {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transition: transform 1s ease;
+}  */
+.covers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-top: 165px; */
+    overflow: hidden;
+    width: 600px; /* Set the desired width of the container */
+    height: 300px; /* Set the desired height of the container */
+    border: 3px solid salmon;
+    transition: transform 1s ease;
+  }
+  
+.covers-container {
+    display: flex;
+    width: 200%; /* Set the width to accommodate both images */
+    transition: transform 1s ease;
+}
+  
+.pt-covers {
+    width: 500%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 10px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    background-color: transparent;   
+}
+.right {
+    transform: rotate(-45deg);
+}
+.left {
+    transform: rotate(135deg);  
+}
+
+#pt-link {
+    margin-top: 500 px;
+    text-align: center;
+}
+a:hover {
+    color: hotpink;
+}
