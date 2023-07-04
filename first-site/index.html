@@ -9,8 +9,9 @@
     <body>
         <div>
             <h1>The Pink Tape</h1>
+            <button class="username-button">Change User</button>
             <h2>Lebron when he heard Pink Tape is dropping on June 30th!</h1>
-            <img src="images/lebron.jpeg" alt="lebron having a good day" />
+            <img class="lebron" src="images/lebron.jpeg" alt="lebron having a good day" />
         </div>
         <div>    
             <p>
@@ -31,19 +32,15 @@
             </ul>
             <p>Just take a look at the album covers below!</p>
         </div>
-        <!-- <div class="covers">
-            <img class="pt-covers" src="images/pinktape!.jpeg" alt="Pink Tape Album Cover" >
-            <img class="pt-covers" src="images/pinktape!-alternate.webp" alt="Pink Tape Album Cover" >
-        </div>    -->
         <div class="covers">
             <div class="covers-container">
-              <img class="pt-covers" src="images/pinktape!.jpeg" alt="Pink Tape Album Cover" >
-              <img class="pt-covers" src="images/pinktape!-alternate.webp" alt="Pink Tape Album Cover" >
+                <img class="pt-cover" src="images/pinktape!.jpeg" alt="Pink Tape Album Cover" >
+                <img class="pt-cover" src="images/pinktape!-alternate.webp" alt="Pink Tape Album Cover" >
             </div>
           </div>
         <div class="nav">
-            <button class="arrow left" onclick="goPrev()"></button>
-            <button class="arrow right" onclick="goNext()"></button>
+            <button class="arrow left-rotate" onclick="goPrev()"></button>
+            <button class="arrow right-rotate" onclick="goNext()"></button>
         </div>
         <p id="pt-link"><a  href="https://uzi.lnk.to/PinkTape">Click Here to Find Pink Tape!</a></p>
         <script src="scripts/main.js"></script>
